@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+html {
+	display: none;
+}
+body {
+	/* width: 100%; */
+	height: 100%;
+	background-image: url('https://www.colourbox.com/preview/29242991-seamless-pattern-with-hand-drawn-fast-food-burger-donut-hot-dog-chinese-food-vector-illustration.jpg');
+	background-repeat: repeat;
+	color: white;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+.fullpage {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: rgba(0, 0, 0, .5);
+}
+.container {
+	background-color: rgba(0, 0, 0, .2);
+	height: 100%;
+	width: 500px;
+	position: relative;
+}
+.title {
+	width: 100%;
+	border-bottom: 4px solid royalblue;
+	height: 13%;
+	width: 100%;
+}
+.title p {
+	font-size: 50px;
+	text-align: center;
+}
+.title p span {
+	color: royalblue;
+}
+.game {
+	margin-top: 10px;
+	height: 87%;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+.player {
+	position: absolute;
+	left: 200px;
+	bottom: 15px;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	border: 3px solid rgb(225, 65, 65);
+}
+.hambu {
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	position: absolute;
+	color:red;
+	transform: rotate(180deg);
+}
+.hambu:nth-child(5){
+	top: -70px;
+	border: 2px solid black;
+}
+.hambu:nth-child(4){
+	border: 2px solid black;
+	top: -240px;
+}
+.hambu:nth-child(3){
+	top: -410px;
+	border: 2px solid black;
+	
+}
+.scores {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 10px;
+	background-color: royalblue;
+	border-radius: 5px;
+}
+.speedy {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 10px;
+	background-color: royalblue;
+	border-radius: 5px;
+}
+.restart {
+	position: absolute;
+	font-size: 50px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: royalblue;
+	cursor: pointer;
+	z-index: 200;
+}
