@@ -63,20 +63,15 @@ body {
 	border-radius: 50%;
 	position: absolute;
 	color:red;
-	transform: rotate(180deg);
 }
 .hambu:nth-child(5){
 	top: -70px;
-	border: 2px solid black;
 }
 .hambu:nth-child(4){
-	border: 2px solid black;
 	top: -240px;
 }
 .hambu:nth-child(3){
-	top: -410px;
-	border: 2px solid black;
-	
+	top: -410px;	
 }
 .scores {
 	position: absolute;
